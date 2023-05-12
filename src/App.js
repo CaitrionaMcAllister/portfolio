@@ -13,7 +13,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Enter Test Test
+          Enter Test Test Test
         </a>
       </header>
     </div>
