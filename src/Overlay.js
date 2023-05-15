@@ -1,7 +1,7 @@
-import { Center } from "@react-three/drei";
+// import { Center } from "@react-three/drei";
 import "./App.css";
 
-function Overlay({ counter1, counter2 }) {
+function Overlay() {
   return (
     <div
       className="App"

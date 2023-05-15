@@ -14,8 +14,8 @@ export default function App() {
           size={10}
           scale={[10, 10, 10]}
           position-y={1}
-          speed={0.7}
-          count={40}
+          speed={1}
+          count={50}
         />
         <Background />
       </Canvas>
