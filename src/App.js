@@ -1,31 +1,25 @@
-import logo from "./logo.svg";
 import "./App.css";
+import { Background } from "./components/Background";
+import { Canvas } from "@react-three/fiber";
+import { Sparkles, OrbitControls } from "@react-three/drei";
+import { Overlay } from "./Overlay.js";
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Caitriona's Portfolio Coming Soon!</p>
-        <a
-          className="App-link"
-          href="https://www.instagram.com/catzcollective/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Check out my instagram in the meantime
-        </a>
-        <a
-          className="App-link"
-          href="https://www.linkedin.com/in/caitrionamcallister"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Let's chat on LinkedIn
-        </a>
-      </header>
-    </div>
+    <>
+      <Canvas dpr={[1, 2]}>
+        <OrbitControls />
+        <ambientLight color="orange" intensity={1} />
+        <Sparkles
+          size={10}
+          scale={[10, 10, 10]}
+          position-y={1}
+          speed={0.7}
+          count={40}
+        />
+        <Background />
+      </Canvas>
+      <Overlay />
+    </>
   );
 }
-
-export default App;

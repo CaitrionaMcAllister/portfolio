@@ -1,3 +1,43 @@
+/* @font-face { */
+/* colourful font */
+/* font-family: "Mario1"; */
+/* src: url(./fonts/mario-world-pixel-color-font/MarioWorldPixelColor-3zBwX.ttf); */
+/* } */
+
+html,
+body,
+#root {
+  margin: 0;
+  /* font-family: "Mario7", sans-serif; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: left;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: LightSkyBlue;
+}
+
+code {
+  font-family: "Mario7", sans-serif;
+}
+
+a {
+  pointer-events: all;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+body {
+  overscroll-behavior: none;
+  background: #efefef;
+  /* font-family: "Mario7", sans-serif; */
+  /* cursor: url("../public/cursor32x32.png"), auto; */
+}
+
 .App {
   text-align: center;
 }
@@ -25,7 +65,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #000000;
 }
 
 @keyframes App-logo-spin {
