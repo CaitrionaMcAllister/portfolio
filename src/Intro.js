@@ -21,14 +21,15 @@ export default function Intro({ children }) {
       >
         <div className="stack">
           <a href="#" onClick={() => setClicked(true)}>
-            {!ready ? "loading" : "click to continue"}
+            {!ready ? "loading" : "ENTER"}
           </a>
         </div>
         <Footer
           date="17. May"
           year="2023"
-          link1={<a href="https://github.com/pmndrs/drei">C.MCA Github</a>}
-          // link2={<a href="https://codesandbox.io/s/e6bjz">s/e6bjz</a>}
+          link1={
+            <a href="https://github.com/CaitrionaMcAllister">C.MCA Github</a>
+          }
         />
       </div>
     </>
