@@ -1,5 +1,5 @@
 import { Suspense, cloneElement, useEffect, useState } from "react";
-import { Footer } from "@pmndrs/branding";
+// import { Footer } from "@pmndrs/branding";
 
 function Ready({ setReady }) {
   useEffect(() => () => void setReady(true), []);
@@ -24,13 +24,13 @@ export default function Intro({ children }) {
             {!ready ? "loading" : "ENTER"}
           </a>
         </div>
-        <Footer
+        {/* <Footer
           date="17. May"
           year="2023"
           link1={
             <a href="https://github.com/CaitrionaMcAllister">C.MCA Github</a>
           }
-        />
+        /> */}
       </div>
     </>
   );
