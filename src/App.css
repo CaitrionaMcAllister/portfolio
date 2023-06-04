@@ -78,31 +78,22 @@ body {
   color: white;
 }
 
-.App-link {
-  color: #ffffff;
-  font-family: "halyard-display", sans-serif;
-  font-weight: 200;
-  font-style: normal;
-}
-
 .App-enter {
   color: #ffffff;
   font-family: "lores-9-plus-narrow", sans-serif;
   font-weight: 700;
   font-style: normal;
   font-size: 130px;
+  height: 2%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App-link {
+  color: #ffffff;
+  font-family: "halyard-display", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  height: 200%;
 }
-
-@import url("@pmndrs/branding/styles.css");
 
 * {
   box-sizing: border-box;

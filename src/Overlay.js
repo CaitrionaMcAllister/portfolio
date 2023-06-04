@@ -29,15 +29,7 @@ function Overlay() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        Check out my <strong>Instagram</strong> in the meantime
-      </a>
-      <a
-        className="App-link"
-        href="https://www.linkedin.com/in/caitrionamcallister"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Let's chat on <strong>LinkedIn</strong>
+        CAITRIONA'S PORTFOLIO
       </a>
     </div>
   );
