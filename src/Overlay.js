@@ -22,7 +22,7 @@ function Overlay() {
         rel: "noopener noreferrer",
       }}
     >
-      <p className="App-link">Caitriona's Portfolio Coming Soon!</p>
+      <p className="App-enter">Caitriona's Portfolio Coming Soon!</p>
       <a
         className="App-link"
         href="https://www.instagram.com/caitriona_mcallister/"

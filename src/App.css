@@ -7,8 +7,10 @@
 html,
 body,
 #root {
+  font-family: "lores-9-plus-narrow", sans-serif;
+  font-weight: 700;
+  font-style: normal;
   margin: 0;
-  font-family: "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: left;
@@ -22,7 +24,7 @@ body,
 }
 
 code {
-  font-family: "Helvetica Neue", sans-serif;
+  font-family: "lores-9-plus-narrow", sans-serif;
 }
 
 a {
@@ -46,7 +48,7 @@ a:hover {
 body {
   overscroll-behavior: none;
   background: #efefef;
-  /* font-family: "Mario7", sans-serif; */
+  font-family: "lores-9-plus-narrow", sans-serif;
   /* cursor: url("../public/cursor32x32.png"), auto; */
 }
 
@@ -78,6 +80,16 @@ body {
 
 .App-link {
   color: #ffffff;
+  font-family: "halyard-display", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.App-enter {
+  color: #ffffff;
+  font-family: "lores-9-plus-narrow", sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
 
 @keyframes App-logo-spin {
@@ -96,7 +108,7 @@ body {
 }
 
 body {
-  font-family: "Inter var", sans-serif;
+  font-family: "lores-9-plus-narrow", sans-serif;
   color: white;
   background: #cc7b32;
   user-select: none;

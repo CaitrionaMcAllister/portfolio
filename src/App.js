@@ -1,6 +1,6 @@
 import "./App.css";
-import { useRef } from "react";
-import { Canvas, useFrame } from "@react-three/fiber";
+// import { useRef } from "react";
+import { Canvas } from "@react-three/fiber";
 import {
   Sparkles,
   OrbitControls,
