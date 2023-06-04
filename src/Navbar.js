@@ -1,4 +1,5 @@
 import React from "react";
+// eslint-disable-next-line
 import { BrowserRouter, Route, Link } from "react-router-dom";
 
 function Navbar() {
