@@ -1,13 +1,6 @@
 import "./App.css";
-// import { useRef } from "react";
 import { Canvas } from "@react-three/fiber";
-import {
-  Sparkles,
-  OrbitControls,
-  CameraShake,
-  // useGLTF,
-  // PositionalAudio,
-} from "@react-three/drei";
+import { Sparkles, OrbitControls, CameraShake } from "@react-three/drei";
 import { Overlay } from "./Overlay.js";
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
 import { useLoader } from "@react-three/fiber";

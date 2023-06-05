@@ -23,7 +23,12 @@ export default function Enter({ ready }) {
     <>
       <Canvas dpr={[1, 2]} camera={{ position: [0, 5, 20], fov: 40 }}>
         <fog attach="fog" args={["#cc7b32", 0, 500]} />
-        <OrbitControls />
+        <OrbitControls
+          minAzimuthAngle={-Math.PI / 4}
+          maxAzimuthAngle={Math.PI / 4}
+          minPolarAngle={Math.PI / 6}
+          maxPolarAngle={Math.PI - Math.PI / 6}
+        />
         <ambientLight color="orange" intensity={1} />
         <CameraShake
           maxYaw={0.08} // Max amount camera can yaw in either direction

@@ -20,7 +20,7 @@ body,
   width: 100%;
   height: 100%;
   overflow: hidden;
-  background: orange;
+  background: rgb(105, 11, 32);
 }
 
 code {
@@ -102,7 +102,7 @@ body {
 body {
   font-family: "lores-9-plus-narrow", sans-serif;
   color: white;
-  background: #cc7b32;
+  background: #ffffff;
   user-select: none;
 }
 

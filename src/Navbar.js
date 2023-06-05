@@ -7,10 +7,13 @@ function Navbar() {
     <nav>
       <ul>
         <li>
-          <Link to="/home">Home</Link>
+          <Link to="/Home">Home</Link>
         </li>
         <li>
-          <Link to="/contact">Contact</Link>
+          <Link to="/Projects">Projects</Link>
+        </li>
+        <li>
+          <Link to="/Contact">Contact</Link>
         </li>
       </ul>
     </nav>
