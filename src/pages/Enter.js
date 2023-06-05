@@ -10,6 +10,7 @@ import {
   // PositionalAudio,
 } from "@react-three/drei";
 import { Overlay } from "../Overlay.js";
+import { Credit } from "../Overlay.js";
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
 import { useLoader } from "@react-three/fiber";
 
@@ -24,10 +25,17 @@ export default function Enter({ ready }) {
       <Canvas dpr={[1, 2]} camera={{ position: [0, 5, 20], fov: 40 }}>
         <fog attach="fog" args={["#cc7b32", 0, 500]} />
         <OrbitControls
-          minAzimuthAngle={-Math.PI / 4}
-          maxAzimuthAngle={Math.PI / 4}
+          // minAzimuthAngle={-Math.PI / 2}
+          // maxAzimuthAngle={Math.PI / 2}
           minPolarAngle={Math.PI / 6}
-          maxPolarAngle={Math.PI - Math.PI / 6}
+          maxPolarAngle={Math.PI - Math.PI / 1.7}
+          minDistance={20}
+          maxDistance={30}
+          panSpeed={0.1}
+          makeDefault
+          autoRotate
+          autoRotateSpeed={1}
+          // target={Model}
         />
         <ambientLight color="orange" intensity={1} />
         <CameraShake
@@ -48,12 +56,7 @@ export default function Enter({ ready }) {
         <Model ready={ready} />
       </Canvas>
       <Overlay />
+      <Credit />
     </>
   );
 }
-
-// function Enter() {
-//   return <h1>this is the enterpage</h1>;
-// }
-
-// export default Enter;
