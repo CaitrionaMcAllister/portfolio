@@ -6,6 +6,8 @@ import React from "react";
 
 // export default Home;
 
+// import { Header } from "./Layout";
+
 import * as THREE from "three";
 import { useRef, useState } from "react";
 import { Canvas, useFrame, useThree } from "@react-three/fiber";
@@ -53,40 +55,49 @@ function Items() {
   const { width: w, height: h } = useThree((state) => state.viewport);
   return (
     <Scroll>
-      <Item url="/1.jpg" scale={[w / 3, w / 3, 1]} position={[-w / 6, 0, 0]} />
-      <Item url="/2.jpg" scale={[2, w / 3, 1]} position={[w / 30, -h, 0]} />
       <Item
-        url="/3.jpg"
+        url="./websiteImagesHome/img1.jpg"
+        href="https://caitrionamcallister/PlasticVortex"
+        scale={[w / 3, w / 3, 1]}
+        position={[-w / 6, 0, 0]}
+      />
+      <Item
+        url="./websiteImagesHome/img2.jpg"
+        scale={[2, w / 3, 1]}
+        position={[w / 30, -h, 0]}
+      />
+      <Item
+        url="./websiteImagesHome/img3.jpg"
         scale={[w / 3, w / 5, 1]}
         position={[-w / 4, -h * 1, 0]}
       />
       <Item
-        url="/4.jpg"
+        url="./websiteImagesHome/img4.png"
         scale={[w / 5, w / 5, 1]}
         position={[w / 4, -h * 1.2, 0]}
       />
       <Item
-        url="/5.jpg"
+        url="./websiteImagesHome/img5.png"
         scale={[w / 5, w / 5, 1]}
         position={[w / 10, -h * 1.75, 0]}
       />
       <Item
-        url="/6.jpg"
+        url="./websiteImagesHome/img6.png"
         scale={[w / 3, w / 3, 1]}
         position={[-w / 4, -h * 2, 0]}
       />
       <Item
-        url="/7.jpg"
+        url="./websiteImagesHome/img7.png"
         scale={[w / 3, w / 5, 1]}
         position={[-w / 4, -h * 2.6, 0]}
       />
       <Item
-        url="/8.jpg"
+        url="./websiteImagesHome/img8.png"
         scale={[w / 2, w / 2, 1]}
         position={[w / 4, -h * 3.1, 0]}
       />
       <Item
-        url="/12.jpg"
+        url="./websiteImagesHome/img9.png"
         scale={[w / 2.5, w / 2, 1]}
         position={[-w / 6, -h * 4.1, 0]}
       />
@@ -102,7 +113,7 @@ export const Home = () => (
     dpr={[1, 1.5]}
   >
     <color attach="background" args={["#f0f0f0"]} />
-    <ScrollControls damping={6} pages={5}>
+    <ScrollControls damping={3} pages={5}>
       <Items />
       <Scroll html style={{ width: "100%" }}>
         <h1
@@ -117,18 +128,16 @@ export const Home = () => (
           CMCA
         </h1>
         <h1 style={{ position: "absolute", top: "180vh", left: "10vw" }}>
-          creative coding
+          CREATIVE CODING
         </h1>
         <h1 style={{ position: "absolute", top: "260vh", right: "10vw" }}>
-          data
+          DATA
         </h1>
         <h1 style={{ position: "absolute", top: "350vh", left: "10vw" }}>
-          branding
+          BRANDING
         </h1>
         <h1 style={{ position: "absolute", top: "450vh", right: "10vw" }}>
-          graphic design
-          <br />
-          art
+          GRAPHIC DESIGN
         </h1>
       </Scroll>
     </ScrollControls>

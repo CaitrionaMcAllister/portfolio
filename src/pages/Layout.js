@@ -2,13 +2,23 @@ import React from "react";
 import { Outlet } from "react-router-dom";
 import { Navbar } from "../Overlay";
 
-const Layout = () => {
+function Layout() {
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       <Outlet />
     </>
   );
-};
+}
 
-export default Layout;
+export { Layout };
+
+function Header() {
+  return (
+    <>
+      <Navbar />
+    </>
+  );
+}
+
+export { Header };

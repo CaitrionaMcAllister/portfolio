@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { Suspense } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Layout from "./pages/Layout";
+import { Layout } from "./pages/Layout";
 import { Home } from "./pages/Home";
 import Contact from "./pages/Contact";
 import Projects from "./pages/Projects";

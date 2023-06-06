@@ -77,14 +77,14 @@ function Overlay() {
         rel: "noopener noreferrer",
       }}
     >
-      <p className="App-enter">ENTER</p>
+      <p className="App-enter">CAITRIONA</p>
       <a
         className="App-link"
-        href="https://www.instagram.com/caitriona_mcallister/"
+        href="http://localhost:3000/Home"
         target="_blank"
         rel="noopener noreferrer"
       >
-        CAITRIONA'S PORTFOLIO
+        ENTER
       </a>
     </div>
   );
