@@ -7,6 +7,7 @@ import React from "react";
 // export default Home;
 
 // import { Header } from "./Layout";
+import { Header } from "../Overlay.js";
 
 import * as THREE from "three";
 import { useRef, useState } from "react";
@@ -57,7 +58,7 @@ function Items() {
     <Scroll>
       <Item
         url="./websiteImagesHome/img1.jpg"
-        href="https://caitrionamcallister/PlasticVortex"
+        href="https://caitrionamcallister/Enter"
         scale={[w / 3, w / 3, 1]}
         position={[-w / 6, 0, 0]}
       />
@@ -106,40 +107,43 @@ function Items() {
 }
 
 export const Home = () => (
-  <Canvas
-    orthographic
-    camera={{ zoom: 80 }}
-    gl={{ alpha: false, antialias: false, stencil: false, depth: false }}
-    dpr={[1, 1.5]}
-  >
-    <color attach="background" args={["#f0f0f0"]} />
-    <ScrollControls damping={3} pages={5}>
-      <Items />
-      <Scroll html style={{ width: "100%" }}>
-        <h1
-          style={{
-            position: "absolute",
-            top: `100vh`,
-            right: "20vw",
-            fontSize: "25em",
-            transform: `translate3d(0,-100%,0)`,
-          }}
-        >
-          CMCA
-        </h1>
-        <h1 style={{ position: "absolute", top: "180vh", left: "10vw" }}>
-          CREATIVE CODING
-        </h1>
-        <h1 style={{ position: "absolute", top: "260vh", right: "10vw" }}>
-          DATA
-        </h1>
-        <h1 style={{ position: "absolute", top: "350vh", left: "10vw" }}>
-          BRANDING
-        </h1>
-        <h1 style={{ position: "absolute", top: "450vh", right: "10vw" }}>
-          GRAPHIC DESIGN
-        </h1>
-      </Scroll>
-    </ScrollControls>
-  </Canvas>
+  <>
+    <Canvas
+      orthographic
+      camera={{ zoom: 80 }}
+      gl={{ alpha: false, antialias: false, stencil: false, depth: false }}
+      dpr={[1, 1.5]}
+    >
+      <color attach="background" args={["#f0f0f0"]} />
+      <ScrollControls damping={3} pages={5}>
+        <Items />
+        <Scroll html style={{ width: "100%" }}>
+          <h1
+            style={{
+              position: "absolute",
+              top: `100vh`,
+              right: "20vw",
+              fontSize: "25em",
+              transform: `translate3d(0,-100%,0)`,
+            }}
+          >
+            CMCA
+          </h1>
+          <h1 style={{ position: "absolute", top: "180vh", left: "10vw" }}>
+            CREATIVE CODING
+          </h1>
+          <h1 style={{ position: "absolute", top: "260vh", right: "10vw" }}>
+            DATA
+          </h1>
+          <h1 style={{ position: "absolute", top: "350vh", left: "10vw" }}>
+            BRANDING
+          </h1>
+          <h1 style={{ position: "absolute", top: "450vh", right: "10vw" }}>
+            GRAPHIC DESIGN
+          </h1>
+        </Scroll>
+      </ScrollControls>
+    </Canvas>
+    <Header />
+  </>
 );

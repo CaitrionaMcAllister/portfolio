@@ -91,3 +91,42 @@ function Overlay() {
 }
 
 export { Overlay };
+
+function Header() {
+  return (
+    <div
+      style={{
+        position: "absolute",
+        top: 0,
+        left: 0,
+        pointerEvents: "none",
+        width: "100%",
+        height: "100%",
+        color: "#000000",
+      }}
+    >
+      <a
+        href="http://localhost:3000/Home"
+        style={{ position: "absolute", top: 40, left: 30, fontSize: "13px" }}
+      >
+        HOME
+      </a>
+      <a
+        href="http://localhost:3000/Projects"
+        style={{ position: "absolute", top: 40, right: 150, fontSize: "13px" }}
+      >
+        PROJECTS
+      </a>
+      <a
+        href="http://localhost:3000/Contact"
+        style={{ position: "absolute", top: 40, right: 30, fontSize: "13px" }}
+      >
+        CMCA
+        <br />
+        CONTACT
+      </a>
+    </div>
+  );
+}
+
+export { Header };
