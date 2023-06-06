@@ -1,14 +1,5 @@
 import React from "react";
-
-// function Home() {
-//   return <h1>this is the homepage</h1>;
-// }
-
-// export default Home;
-
-// import { Header } from "./Layout";
 import { Header } from "../Overlay.js";
-
 import * as THREE from "three";
 import { useRef, useState } from "react";
 import { Canvas, useFrame, useThree } from "@react-three/fiber";
