@@ -13,6 +13,9 @@ function Navbar() {
           <Link to="/Home">Home</Link>
         </li>
         <li>
+          <Link to="/PlasitcVortex">PlasticVortex</Link>
+        </li>
+        <li>
           <Link to="/Projects">Projects</Link>
         </li>
         <li>
@@ -110,6 +113,12 @@ function Header() {
         style={{ position: "absolute", top: 40, left: 30, fontSize: "13px" }}
       >
         HOME
+      </a>
+      <a
+        href="http://localhost:3000/PlasticVortex"
+        style={{ position: "absolute", top: 40, left: 100, fontSize: "13px" }}
+      >
+        PLASTIC VORTEX
       </a>
       <a
         href="http://localhost:3000/Projects"

@@ -6,6 +6,7 @@ import { Layout } from "./pages/Layout";
 import { Home } from "./pages/Home";
 import { Contact } from "./pages/Contact";
 import { Projects } from "./pages/Projects";
+import PlasticVortex from "./pages/PlasticVortex";
 import NoPage from "./pages/NoPage";
 import Enter from "./pages/Enter";
 
@@ -19,6 +20,7 @@ export default function App() {
           <Route path="contact" element={<Contact />} />
           <Route path="home" element={<Home />} />
           <Route path="projects" element={<Projects />} />
+          <Route path="plasticvortex" element={<PlasticVortex />} />
           <Route path="layout" element={<Layout />} />
           <Route path="*" element={<NoPage />} />
         </Route>
