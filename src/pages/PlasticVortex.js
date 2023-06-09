@@ -186,7 +186,7 @@ function Content({ onReflow }) {
   const scale = Math.min(1, viewport.width / 16);
   return (
     <group ref={group}>
-      <Flex
+      {/* <Flex
         dir="column"
         position={[-viewport.width / 2, viewport.height / 2, 0]}
         size={[viewport.width, viewport.height, 0]}
@@ -253,7 +253,7 @@ function Content({ onReflow }) {
             <Geo position={[bW / 2, -bH / 2, state.depthbox[1].depth]} />
           </Box>
         </Box>
-      </Flex>
+      </Flex> */}
     </group>
   );
 }

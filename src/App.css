@@ -50,6 +50,8 @@ body {
   background: #efefef;
   font-family: "lores-9-plus-narrow", sans-serif;
   /* cursor: url("../public/cursor32x32.png"), auto; */
+  cursor: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAzMiAzMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48Y2lyY2xlIGN4PSIxNiIgY3k9IjE2IiByPSIxMCIgZmlsbD0iYmxhY2siLz48L3N2Zz4="),
+    auto;
 }
 
 .App {
