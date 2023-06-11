@@ -105,7 +105,7 @@ function Header() {
         pointerEvents: "none",
         width: "100%",
         height: "100%",
-        color: "#000000",
+        color: "#303030",
       }}
     >
       <a
@@ -114,12 +114,12 @@ function Header() {
       >
         HOME
       </a>
-      <a
+      {/* <a
         href="http://localhost:3000/PlasticVortex"
         style={{ position: "absolute", top: 40, left: 100, fontSize: "13px" }}
       >
         PLASTIC VORTEX
-      </a>
+      </a> */}
       <a
         href="http://localhost:3000/Projects"
         style={{ position: "absolute", top: 40, right: 150, fontSize: "13px" }}
@@ -130,9 +130,18 @@ function Header() {
         href="http://localhost:3000/Contact"
         style={{ position: "absolute", top: 40, right: 30, fontSize: "13px" }}
       >
-        CMCA
-        <br />
         CONTACT
+      </a>
+      <a
+        href="http://localhost:3000/Home"
+        style={{
+          position: "absolute",
+          bottom: 40,
+          right: 30,
+          fontSize: "13px",
+        }}
+      >
+        CMCA
       </a>
     </div>
   );

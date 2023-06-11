@@ -106,7 +106,7 @@ export const Home = () => (
       dpr={[1, 1.5]}
     >
       <color attach="background" args={["#f0f0f0"]} />
-      <ScrollControls damping={3} pages={5}>
+      <ScrollControls damping={1} pages={5}>
         <Items />
         <Scroll html style={{ width: "100%" }}>
           <h1
