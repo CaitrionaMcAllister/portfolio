@@ -1,6 +1,7 @@
 import React from "react";
 import { Header } from "../Overlay.js";
 import * as THREE from "three";
+import "../App.css";
 import { useRef, useState } from "react";
 import { Canvas, useFrame, useThree } from "@react-three/fiber";
 import { useIntersect, Image, ScrollControls, Scroll } from "@react-three/drei";
@@ -112,7 +113,7 @@ export const Home = () => (
           <h1
             style={{
               position: "absolute",
-              top: `100vh`,
+              top: `50vh`,
               right: "20vw",
               fontSize: "25em",
               transform: `translate3d(0,-100%,0)`,
