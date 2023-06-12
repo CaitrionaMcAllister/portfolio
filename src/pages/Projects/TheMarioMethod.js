@@ -13,7 +13,7 @@ const geometry = new THREE.BufferGeometry().setFromPoints([
 ]);
 const state = proxy({
   clicked: null,
-  urls: [5, 9, 10].map((u) => `./websiteImagesHome/${u}.png`),
+  urls: [5, 9, 10, 20, 19, 21, 22].map((u) => `./websiteImagesHome/${u}.png`),
 });
 
 // "./websiteImagesHome/img1.jpg"

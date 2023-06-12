@@ -49,18 +49,18 @@ function Items() {
   return (
     <Scroll>
       <Item
-        url="./websiteImagesHome/1.jpg"
+        url="./websiteImagesHome/1.png"
         href="/Enter"
         scale={[w / 3, w / 3, 1]}
         position={[-w / 6, 0, 0]}
       />
       <Item
-        url="./websiteImagesHome/2.jpg"
+        url="./websiteImagesHome/10.png"
         scale={[2, w / 3, 1]}
         position={[w / 30, -h, 0]}
       />
       <Item
-        url="./websiteImagesHome/3.jpg"
+        url="./websiteImagesHome/3.png"
         scale={[w / 3, w / 5, 1]}
         position={[-w / 4, -h * 1, 0]}
       />
