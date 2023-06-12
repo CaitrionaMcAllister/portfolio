@@ -13,7 +13,7 @@ export const Contact = () => (
       dpr={[1, 1.5]}
     >
       <color attach="background" args={["#f0f0f0"]} />
-      <ScrollControls damping={1} pages={2}>
+      <ScrollControls damping={1} pages={1}>
         <Scroll html style={{ width: "100%" }}>
           <div>
             <h1
@@ -52,7 +52,7 @@ export const Contact = () => (
               href="https://www.instagram.com/caitriona_mcallister/"
               style={{
                 position: "absolute",
-                top: `50vh`,
+                top: `60vh`,
                 left: "10vw",
                 right: "10vw",
                 fontSize: "20",
@@ -65,7 +65,7 @@ export const Contact = () => (
               href="https://uk.linkedin.com/in/caitrionamcallister"
               style={{
                 position: "absolute",
-                top: `55vh`,
+                top: `65vh`,
                 left: "10vw",
                 right: "10vw",
                 fontSize: "20",
@@ -78,7 +78,7 @@ export const Contact = () => (
               href="/Contact"
               style={{
                 position: "absolute",
-                top: `60vh`,
+                top: `70vh`,
                 left: "10vw",
                 right: "10vw",
                 fontSize: "20",
