@@ -50,6 +50,8 @@ export const Contact = () => (
             </p>
             <a
               href="https://www.instagram.com/caitriona_mcallister/"
+              target="_blank"
+              rel="noopener noreferrer"
               style={{
                 position: "absolute",
                 top: `60vh`,
@@ -63,6 +65,8 @@ export const Contact = () => (
             </a>
             <a
               href="https://uk.linkedin.com/in/caitrionamcallister"
+              target="_blank"
+              rel="noopener noreferrer"
               style={{
                 position: "absolute",
                 top: `65vh`,
@@ -74,11 +78,11 @@ export const Contact = () => (
             >
               Linkedin: Caitriona McAllister
             </a>
-            <a
+            <p
               href="/Contact"
               style={{
                 position: "absolute",
-                top: `70vh`,
+                top: `69vh`,
                 left: "10vw",
                 right: "10vw",
                 fontSize: "20",
@@ -86,7 +90,7 @@ export const Contact = () => (
               }}
             >
               Email: caitriona.mcallister1@gmail.com
-            </a>
+            </p>
           </div>
         </Scroll>
       </ScrollControls>
