@@ -38,13 +38,14 @@ export const Contact = () => (
               color: "#303030",
             }}
           >
-            Hi I’m Caitríona! I am a creative technologist specialising in
-            coding and digital art. Through the fusion of design, technology,
+            Hi I'm <b>Caitríona!</b> I am a creative technologist specialising
+            in coding and digital art. Through the fusion of design, technology,
             and art, I strive to create immersive and interactive experiences
             that challenge traditional notions of art. My expertise in creative
             coding allows me to transform raw data into visually stunning and
             thought-provoking works of art, while seamlessly integrating
             emerging technologies like virtual reality and augmented reality.
+            <br />
             <br />
             With a deep commitment to pushing the boundaries of art in the
             digital age, I invite viewers to reimagine the potential of
@@ -52,7 +53,8 @@ export const Contact = () => (
             conversations about the interplay between art, design, and the
             ever-evolving digital landscape.
           </p>
-          <p
+          <a
+            href="https://www.instagram.com/caitriona_mcallister/"
             style={{
               position: "absolute",
               top: `90vh`,
@@ -62,13 +64,34 @@ export const Contact = () => (
               color: "#ff0040",
             }}
           >
-            @caitriona_mcallister
-            <br />
-            caitriona.mcallister1@gmail.com
-            <br />
-            www.caitrionamcallister.com
-            <br />
-          </p>
+            Instagram: @caitriona_mcallister
+          </a>
+          <a
+            href="/Contact"
+            style={{
+              position: "absolute",
+              top: `96vh`,
+              left: "10vw",
+              right: "10vw",
+              fontSize: "20",
+              color: "#ff0040",
+            }}
+          >
+            Email: caitriona.mcallister1@gmail.com
+          </a>
+          <a
+            href="https://uk.linkedin.com/in/caitrionamcallister"
+            style={{
+              position: "absolute",
+              top: `93vh`,
+              left: "10vw",
+              right: "10vw",
+              fontSize: "20",
+              color: "#ff0040",
+            }}
+          >
+            Linkedin: Caitriona McAllister
+          </a>
         </Scroll>
       </ScrollControls>
     </Canvas>

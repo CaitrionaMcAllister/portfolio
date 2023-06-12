@@ -86,7 +86,8 @@ body {
   font-family: "lores-9-plus-narrow", sans-serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 130px;
+  font-size: calc(60px + 2vmin);
+  align-items: center;
   height: 2%;
 }
 

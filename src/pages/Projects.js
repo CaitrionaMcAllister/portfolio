@@ -15,7 +15,7 @@ export const Projects = () => (
         <Scroll html style={{ width: "100%" }}>
           <div>
             <a
-              href="http://localhost:3000/PlasticVortex"
+              href="/PlasticVortex"
               style={{
                 position: "absolute",
                 top: `15vh`,
@@ -30,7 +30,7 @@ export const Projects = () => (
 
           <div>
             <a
-              href="http://localhost:3000/PlasticVortex"
+              href="/TheMarioMethod"
               style={{
                 position: "absolute",
                 top: `30vh`,
@@ -46,7 +46,7 @@ export const Projects = () => (
 
           <div>
             <a
-              href="http://localhost:3000/PlasticVortex"
+              href="/ByteMe"
               style={{
                 position: "absolute",
                 top: `45vh`,
@@ -62,7 +62,7 @@ export const Projects = () => (
 
           <div>
             <a
-              href="http://localhost:3000/PlasticVortex"
+              href="/HomeHeatMap"
               style={{
                 position: "absolute",
                 top: `60vh`,
@@ -78,7 +78,7 @@ export const Projects = () => (
 
           <div>
             <a
-              href="http://localhost:3000/PlasticVortex"
+              href="/Chill"
               style={{
                 position: "absolute",
                 top: `75vh`,

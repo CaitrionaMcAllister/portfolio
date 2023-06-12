@@ -41,18 +41,11 @@ function Credit() {
       }}
     >
       <a
-        href="https://caitrionamcallister/Home"
-        style={{ position: "absolute", top: 40, right: 90, fontSize: "13px" }}
-      >
-        CMCA
-        <br />
-        dev collective
-      </a>
-      <div
+        href="/Home"
         style={{ position: "absolute", top: 40, right: 40, fontSize: "13px" }}
       >
-        10/17/2021
-      </div>
+        CMCA
+      </a>
     </div>
   );
 }
@@ -83,7 +76,7 @@ function Overlay() {
       <p className="App-enter">CAITRIONA</p>
       <a
         className="App-link"
-        href="http://localhost:3000/Home"
+        href="/Home"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -109,31 +102,25 @@ function Header() {
       }}
     >
       <a
-        href="http://localhost:3000/Home"
+        href="/Home"
         style={{ position: "absolute", top: 40, left: 30, fontSize: "13px" }}
       >
         HOME
       </a>
-      {/* <a
-        href="http://localhost:3000/PlasticVortex"
-        style={{ position: "absolute", top: 40, left: 100, fontSize: "13px" }}
-      >
-        PLASTIC VORTEX
-      </a> */}
       <a
-        href="http://localhost:3000/Projects"
+        href="/Projects"
         style={{ position: "absolute", top: 40, right: 150, fontSize: "13px" }}
       >
         PROJECTS
       </a>
       <a
-        href="http://localhost:3000/Contact"
+        href="/Contact"
         style={{ position: "absolute", top: 40, right: 30, fontSize: "13px" }}
       >
         CONTACT
       </a>
       <a
-        href="http://localhost:3000/Home"
+        href="/Home"
         style={{
           position: "absolute",
           bottom: 40,
