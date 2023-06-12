@@ -49,48 +49,48 @@ function Items() {
   return (
     <Scroll>
       <Item
-        url="./websiteImagesHome/img1.jpg"
+        url="./websiteImagesHome/1.jpg"
         href="/Enter"
         scale={[w / 3, w / 3, 1]}
         position={[-w / 6, 0, 0]}
       />
       <Item
-        url="./websiteImagesHome/img2.jpg"
+        url="./websiteImagesHome/2.jpg"
         scale={[2, w / 3, 1]}
         position={[w / 30, -h, 0]}
       />
       <Item
-        url="./websiteImagesHome/img3.jpg"
+        url="./websiteImagesHome/3.jpg"
         scale={[w / 3, w / 5, 1]}
         position={[-w / 4, -h * 1, 0]}
       />
       <Item
-        url="./websiteImagesHome/img4.png"
+        url="./websiteImagesHome/4.png"
         scale={[w / 5, w / 5, 1]}
         position={[w / 4, -h * 1.2, 0]}
       />
       <Item
-        url="./websiteImagesHome/img5.png"
+        url="./websiteImagesHome/5.png"
         scale={[w / 5, w / 5, 1]}
         position={[w / 10, -h * 1.75, 0]}
       />
       <Item
-        url="./websiteImagesHome/img6.png"
+        url="./websiteImagesHome/6.png"
         scale={[w / 3, w / 3, 1]}
         position={[-w / 4, -h * 2, 0]}
       />
       <Item
-        url="./websiteImagesHome/img7.png"
+        url="./websiteImagesHome/7.png"
         scale={[w / 3, w / 5, 1]}
         position={[-w / 4, -h * 2.6, 0]}
       />
       <Item
-        url="./websiteImagesHome/img8.png"
+        url="./websiteImagesHome/8.png"
         scale={[w / 2, w / 2, 1]}
         position={[w / 4, -h * 3.1, 0]}
       />
       <Item
-        url="./websiteImagesHome/img9.png"
+        url="./websiteImagesHome/9.png"
         scale={[w / 2.5, w / 2, 1]}
         position={[-w / 6, -h * 4.1, 0]}
       />
@@ -100,14 +100,9 @@ function Items() {
 
 export const Home = () => (
   <>
-    <Canvas
-      orthographic
-      camera={{ zoom: 80 }}
-      gl={{ alpha: false, antialias: false, stencil: false, depth: false }}
-      dpr={[1, 1.5]}
-    >
+    <Canvas orthographic camera={{ zoom: 80 }}>
       <color attach="background" args={["#E9E9E9"]} />
-      <ScrollControls damping={1} pages={5}>
+      <ScrollControls damping={0.5} pages={5}>
         <Items />
         <Scroll html style={{ width: "100%" }}>
           <h1

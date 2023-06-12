@@ -2,6 +2,7 @@ import React from "react";
 import { Canvas } from "@react-three/fiber";
 import { Header } from "../Overlay.js";
 import { ScrollControls, Scroll } from "@react-three/drei";
+// import "../App.css";
 
 export const Contact = () => (
   <>
@@ -12,7 +13,7 @@ export const Contact = () => (
       dpr={[1, 1.5]}
     >
       <color attach="background" args={["#f0f0f0"]} />
-      <ScrollControls damping={1} pages={5}>
+      <ScrollControls damping={1} pages={1}>
         <Scroll html style={{ width: "100%" }}>
           <h1
             style={{
