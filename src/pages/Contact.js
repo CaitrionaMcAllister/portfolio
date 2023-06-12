@@ -59,7 +59,7 @@ export const Contact = () => (
                 color: "#ff0040",
               }}
             >
-              Instagram: @caitriona_mcallister
+              Insta: @caitriona_mcallister
             </a>
             <a
               href="https://uk.linkedin.com/in/caitrionamcallister"
