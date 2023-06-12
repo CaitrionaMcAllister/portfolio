@@ -50,7 +50,7 @@ function Items() {
     <Scroll>
       <Item
         url="./websiteImagesHome/img1.jpg"
-        href="https://caitrionamcallister/Enter"
+        href="/Enter"
         scale={[w / 3, w / 3, 1]}
         position={[-w / 6, 0, 0]}
       />
