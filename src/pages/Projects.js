@@ -32,7 +32,7 @@ export const Projects = () => (
               rel="noopener noreferrer"
               style={{
                 position: "absolute",
-                top: `17vh`,
+                top: `18vh`,
                 left: "15vw",
                 scale: "0.7",
                 color: "#ff0040",
@@ -62,7 +62,7 @@ export const Projects = () => (
               rel="noopener noreferrer"
               style={{
                 position: "absolute",
-                top: `32vh`,
+                top: `33vh`,
                 left: "16vw",
                 scale: "0.7",
                 color: "#ff0040",
@@ -86,6 +86,20 @@ export const Projects = () => (
               }}
             >
               Byte Me
+            </a>
+            <a
+              href="https://youtu.be/dOv4CeD_PRg"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{
+                position: "absolute",
+                top: `48vh`,
+                left: "15vw",
+                scale: "0.7",
+                color: "#ff0040",
+              }}
+            >
+              Video Summary
             </a>
           </div>
 
@@ -118,6 +132,20 @@ export const Projects = () => (
               }}
             >
               Chill
+            </a>
+            <a
+              href="https://youtu.be/JWUay__r0Lg"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{
+                position: "absolute",
+                top: `77vh`,
+                left: "15vw",
+                scale: "0.7",
+                color: "#ff0040",
+              }}
+            >
+              Video Summary
             </a>
           </div>
         </Scroll>
