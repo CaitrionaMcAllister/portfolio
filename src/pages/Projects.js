@@ -26,6 +26,20 @@ export const Projects = () => (
             >
               Plastic Vortex
             </a>
+            <a
+              href="https://youtu.be/eZFFE6rRdx4"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{
+                position: "absolute",
+                top: `17vh`,
+                left: "15vw",
+                scale: "0.7",
+                color: "#ff0040",
+              }}
+            >
+              Video Summary
+            </a>
           </div>
 
           <div>
@@ -41,6 +55,21 @@ export const Projects = () => (
               }}
             >
               The Mario Method
+            </a>
+            <a
+              href="https://youtu.be/GekQMljEEqw"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{
+                position: "absolute",
+                top: `32vh`,
+                left: "16vw",
+                scale: "0.7",
+                color: "#ff0040",
+                fontFamily: "halyard-display",
+              }}
+            >
+              Video Summary
             </a>
           </div>
 
