@@ -1,14 +1,7 @@
 import React from "react";
 import "../App.css";
-// import { useRef } from "react";
 import { Canvas } from "@react-three/fiber";
-import {
-  Sparkles,
-  OrbitControls,
-  CameraShake,
-  // useGLTF,
-  // PositionalAudio,
-} from "@react-three/drei";
+import { Sparkles, OrbitControls, CameraShake } from "@react-three/drei";
 import { Overlay } from "../Overlay.js";
 import { Credit } from "../Overlay.js";
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
@@ -25,8 +18,6 @@ export default function Enter({ ready }) {
       <Canvas dpr={[1, 2]} camera={{ position: [0, 5, 20], fov: 40 }}>
         <fog attach="fog" args={["#cc7b32", 0, 500]} />
         <OrbitControls
-          // minAzimuthAngle={-Math.PI / 2}
-          // maxAzimuthAngle={Math.PI / 2}
           minPolarAngle={Math.PI / 6}
           maxPolarAngle={Math.PI - Math.PI / 1.7}
           minDistance={20}
@@ -35,7 +26,6 @@ export default function Enter({ ready }) {
           makeDefault
           autoRotate
           autoRotateSpeed={1}
-          // target={Model}
         />
         <ambientLight color="orange" intensity={1} />
         <CameraShake
