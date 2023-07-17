@@ -7,7 +7,7 @@ import { Credit } from "../Overlay.js";
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
 import { useLoader } from "@react-three/fiber";
 
-function Model({ ready }) {
+function Model() {
   const model = useLoader(GLTFLoader, "./models/scene.glb");
   return <primitive object={model.scene} scale={0.03} position={[0, 0, 10]} />;
 }
