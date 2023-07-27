@@ -6,6 +6,8 @@ import { Overlay } from "../Overlay.js";
 import { Credit } from "../Overlay.js";
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
 import { useLoader } from "@react-three/fiber";
+//https://codepen.io/bob6664569/pen/rOzmve
+//https://codepen.io/plasm/pen/zwjMPy
 
 function Model() {
   const model = useLoader(GLTFLoader, "./models/scene.glb");
