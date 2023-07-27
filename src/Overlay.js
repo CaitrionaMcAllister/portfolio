@@ -13,9 +13,6 @@ function Navbar() {
           <Link to="/Home">Home</Link>
         </li>
         <li>
-          <Link to="/PlasitcVortex">PlasticVortex</Link>
-        </li>
-        <li>
           <Link to="/Projects">Projects</Link>
         </li>
         <li>
