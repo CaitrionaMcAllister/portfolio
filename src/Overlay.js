@@ -70,7 +70,8 @@ function Overlay() {
         rel: "noopener noreferrer",
       }}
     >
-      <p className="App-enter">CAITRIONA</p>
+      <p className="App-enter">CAITRIONA <br/>MCALLISTER</p>
+      <p>Creative Technologist</p>
       <a
         className="App-link"
         href="/Home"

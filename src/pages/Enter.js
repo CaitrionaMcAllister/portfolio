@@ -9,6 +9,8 @@ import { useLoader } from "@react-three/fiber";
 //https://codepen.io/bob6664569/pen/rOzmve
 //https://codepen.io/plasm/pen/zwjMPy
 
+//to do: add slightly moving scene but with stars that animate and interactive
+
 function Model() {
   const model = useLoader(GLTFLoader, "./models/scene.glb");
   return <primitive object={model.scene} scale={0.03} position={[0, 0, 10]} />;
