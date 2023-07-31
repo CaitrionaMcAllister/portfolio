@@ -87,9 +87,19 @@ body {
   font-family: "lores-9-plus-narrow", sans-serif;
   font-weight: 700;
   font-style: normal;
-  font-size: calc(50px + 1vmin);
+  font-size: calc(50px + 2vmin);
   align-items: center;
-  height: 2%;
+  height: 10%;
+}
+
+.App-description {
+  color: #ffffff;
+  font-family: "lores-9-plus-narrow", sans-serif;
+  font-weight: 70;
+  font-style: normal;
+  font-size: calc(10px + 2vmin);
+  align-items: center;
+  height: 50%;
 }
 
 .App-link {
