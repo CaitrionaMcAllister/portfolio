@@ -7,14 +7,6 @@ import "../App.css";
 
 export const Home = () => (
   <>
-    {/* <Canvas orthographic camera={{ zoom: 80 }}>
-      <color attach="background" args={["#E9E9E9"]} />
-      <ScrollControls damping={0.5} pages={1}>
-        <Scroll html style={{ width: "100%" }}>
-          
-        </Scroll>
-      </ScrollControls>
-    </Canvas> */}
     <Header />
   </>
 );

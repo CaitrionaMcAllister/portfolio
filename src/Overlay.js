@@ -86,7 +86,7 @@ function Header() {
         href="/Projects"
         style={{ position: "absolute", top: 40, right: 150, fontSize: "13px" }}
       >
-        PROJECTS
+        ABOUT ME
       </a>
       <a
         href="/Contact"
