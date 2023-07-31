@@ -25,29 +25,6 @@ function Navbar() {
 
 export { Navbar };
 
-function Credit() {
-  return (
-    <div
-      style={{
-        position: "absolute",
-        top: 0,
-        left: 0,
-        pointerEvents: "none",
-        width: "100%",
-        height: "100%",
-      }}
-    >
-      <a
-        href="/Home"
-        style={{ position: "absolute", top: 40, right: 40, fontSize: "13px" }}
-      >
-        CMCA
-      </a>
-    </div>
-  );
-}
-
-export { Credit };
 
 function Overlay() {
   return (
@@ -101,9 +78,9 @@ function Header() {
     >
       <a
         href="/Home"
-        style={{ position: "absolute", top: 40, left: 30, fontSize: "13px" }}
+        style={{ position: "absolute", top: 33, left: 30, fontSize: "20px" }}
       >
-        HOME
+        CMcA
       </a>
       <a
         href="/Projects"
@@ -116,17 +93,6 @@ function Header() {
         style={{ position: "absolute", top: 40, right: 30, fontSize: "13px" }}
       >
         CONTACT
-      </a>
-      <a
-        href="/Home"
-        style={{
-          position: "absolute",
-          bottom: 40,
-          right: 30,
-          fontSize: "13px",
-        }}
-      >
-        CMCA
       </a>
     </div>
   );

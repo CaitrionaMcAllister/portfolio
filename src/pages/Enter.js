@@ -3,7 +3,6 @@ import "../App.css";
 import { Canvas } from "@react-three/fiber";
 import { Sparkles, OrbitControls, CameraShake } from "@react-three/drei";
 import { Overlay } from "../Overlay.js";
-import { Credit } from "../Overlay.js";
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
 import { useLoader } from "@react-three/fiber";
 //https://codepen.io/bob6664569/pen/rOzmve
@@ -50,7 +49,6 @@ export default function Enter({ ready }) {
         <Model ready={ready} />
       </Canvas>
       <Overlay />
-      <Credit />
     </>
   );
 }

@@ -70,11 +70,11 @@ export const Contact = () => (
             >
               Linkedin: Caitriona McAllister
             </a>
-            <p
+            <a
               href="/Contact"
               style={{
                 position: "absolute",
-                top: `69vh`,
+                top: `70vh`,
                 left: "10vw",
                 right: "10vw",
                 fontSize: "20",
@@ -82,7 +82,7 @@ export const Contact = () => (
               }}
             >
               Email: caitriona.mcallister1@gmail.com
-            </p>
+            </a>
           </div>
   
     <Header />
