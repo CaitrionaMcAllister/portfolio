@@ -5,7 +5,6 @@ import { Navbar } from "../Overlay";
 function Layout() {
   return (
     <>
-      {/* <Navbar /> */}
       <Outlet />
     </>
   );

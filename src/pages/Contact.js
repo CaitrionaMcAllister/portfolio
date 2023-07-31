@@ -1,20 +1,12 @@
 import React from "react";
-import { Canvas } from "@react-three/fiber";
+// import { Canvas } from "@react-three/fiber";
 import { Header } from "../Overlay.js";
-import { ScrollControls, Scroll } from "@react-three/drei";
+// import { ScrollControls, Scroll } from "@react-three/drei";
 //https://codepen.io/plasm/pen/pPWrqV
 
 export const Contact = () => (
   <>
-    <Canvas
-      orthographic
-      camera={{ zoom: 80 }}
-      gl={{ alpha: false, antialias: false, stencil: false, depth: false }}
-      dpr={[1, 1.5]}
-    >
-      <color attach="background" args={["#f0f0f0"]} />
-      <ScrollControls damping={1} pages={1}>
-        <Scroll html style={{ width: "100%" }}>
+    
           <div>
             <h1
               style={{
@@ -92,9 +84,7 @@ export const Contact = () => (
               Email: caitriona.mcallister1@gmail.com
             </p>
           </div>
-        </Scroll>
-      </ScrollControls>
-    </Canvas>
+  
     <Header />
   </>
 );

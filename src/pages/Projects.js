@@ -1,19 +1,10 @@
-import { Canvas } from "@react-three/fiber";
-import { ScrollControls, Scroll } from "@react-three/drei";
+// import { Canvas } from "@react-three/fiber";
+// import { ScrollControls, Scroll } from "@react-three/drei";
 import { Header } from "../Overlay.js";
 //https://codepen.io/kw7oe/pen/mPeepv
 
 export const Projects = () => (
   <>
-    <Canvas
-      orthographic
-      camera={{ zoom: 80 }}
-      gl={{ alpha: false, antialias: false, stencil: false, depth: false }}
-      dpr={[1, 1.5]}
-    >
-      <color attach="background" args={["#E9E9E9"]} />
-      <ScrollControls damping={1} pages={1}>
-        <Scroll html style={{ width: "100%" }}>
           <div>
             <a
               href="/PlasticVortex"
@@ -149,9 +140,6 @@ export const Projects = () => (
               Video Summary
             </a>
           </div>
-        </Scroll>
-      </ScrollControls>
-    </Canvas>
     <Header />
   </>
 );
