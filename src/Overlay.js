@@ -55,7 +55,7 @@ function Overlay() {
         // target="_blank"
         // rel="noopener noreferrer"
       >
-        ENTER
+        COMING SOON!<br/>Find me on <a href="https://www.linkedin.com/in/caitrionamcallister/"><strong>LinkedIn</strong></a>
       </a>
     </div>
   );
