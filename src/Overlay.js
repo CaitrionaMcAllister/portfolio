@@ -48,7 +48,7 @@ function Overlay() {
       }}
     >
       <p className="App-enter">CAITRIONA<br/>MCALLISTER</p>
-      <p className="App-description">Creative Technologist</p>
+      <p className="App-description">Creative Technologist + Digital Designer</p>
       <a
         className="App-link"
         href="/Home"
@@ -86,7 +86,7 @@ function Header() {
         href="/Projects"
         style={{ position: "absolute", top: 40, right: 150, fontSize: "13px" }}
       >
-        ABOUT ME
+        PROJECTS
       </a>
       <a
         href="/Contact"
