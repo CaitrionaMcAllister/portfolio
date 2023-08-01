@@ -51,11 +51,11 @@ function Overlay() {
       <p className="App-description">Creative Technologist + Digital Designer</p>
       <a
         className="App-link"
-        href="/Home"
+        href="https://www.linkedin.com/in/caitrionamcallister/"
         // target="_blank"
         // rel="noopener noreferrer"
       >
-        COMING SOON!<br/>Find me on <a href="https://www.linkedin.com/in/caitrionamcallister/"><strong>LinkedIn</strong></a>
+        COMING SOON!<br/>Find me on<strong>LinkedIn</strong>
       </a>
     </div>
   );
