@@ -55,7 +55,7 @@ function Overlay() {
         // target="_blank"
         // rel="noopener noreferrer"
       >
-        COMING SOON!<br/>Find me on<strong>LinkedIn</strong>
+        COMING SOON!<br/>Find me on<strong> LinkedIn</strong>
       </a>
     </div>
   );
