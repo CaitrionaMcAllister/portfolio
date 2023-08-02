@@ -1,7 +1,7 @@
 import React from "react";
 import "../App.css";
 import { Canvas } from "@react-three/fiber";
-import { Sparkles, OrbitControls, CameraShake } from "@react-three/drei";
+import { Sparkles, CameraShake } from "@react-three/drei";
 import { Overlay } from "../Overlay.js";
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
 import { useLoader } from "@react-three/fiber";
@@ -12,15 +12,15 @@ import { useLoader } from "@react-three/fiber";
 
 function Model() {
   const model = useLoader(GLTFLoader, "./models/scene.glb");
-  return <primitive object={model.scene} scale={0.03} position={[0, 0, 10]} />;
+  return <primitive object={model.scene} scale={0.03} position={[0, -7, 0]} />;
 }
 
 export default function Enter({ ready }) {
   return (
     <>
-      <Canvas dpr={[1, 2]} camera={{ position: [0, 5, 20], fov: 40 }}>
+      <Canvas dpr={[1, 2]} camera={{ position: [0, 6, 20], fov: 40 }}>
         <fog attach="fog" args={["#cc7b32", 0, 500]} />
-        <OrbitControls
+        {/* <OrbitControls
           minPolarAngle={Math.PI / 6}
           maxPolarAngle={Math.PI - Math.PI / 1.7}
           minDistance={20}
@@ -29,8 +29,7 @@ export default function Enter({ ready }) {
           makeDefault
           autoRotate
           autoRotateSpeed={1}
-        />
-        <ambientLight color="orange" intensity={1} />
+        /> */}
         <CameraShake
           maxYaw={0.08} // Max amount camera can yaw in either direction
           maxPitch={0.08} // Max amount camera can pitch in either direction
