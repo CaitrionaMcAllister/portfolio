@@ -32,7 +32,7 @@ function Overlay() {
       className="App"
       style={{
         position: "absolute",
-        top: 0,
+        top: 100,
         left: 0,
         pointerEvents: "none",
         width: "100%",
@@ -43,7 +43,7 @@ function Overlay() {
         flexDirection: "column",
         alignItems: "center",
         justifyContent: "center",
-        fontSize: "calc(10px + 2vmin)",
+        fontSize: "calc(20px + 0.390625vw)",
         rel: "noopener noreferrer",
       }}
     >

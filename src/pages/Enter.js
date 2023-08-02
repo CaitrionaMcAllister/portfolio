@@ -39,8 +39,8 @@ export default function Enter({ ready }) {
           decayRate={0.2} // if decay = true this is the rate at which intensity will reduce at />
         />
         <Sparkles
-          size={10}
-          scale={[10, 10, 10]}
+          size={20}
+          scale={[20,20,20]}
           position-y={1}
           speed={1}
           count={50}

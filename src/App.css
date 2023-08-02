@@ -13,7 +13,7 @@ body,
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: left;
+  text-align: center;
   position: fixed;
   top: 0;
   left: 0;
@@ -78,7 +78,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(10px + 0.390625vw);
   color: white;
 }
 
@@ -87,7 +87,7 @@ body {
   font-family: "lores-9-plus-narrow", sans-serif;
   font-weight: 700;
   font-style: normal;
-  font-size: calc(50px + 2vmin);
+  font-size: calc(40px + 0.390625vw);
   align-items: center;
   height: 10%;
 }
@@ -97,7 +97,7 @@ body {
   font-family: "lores-9-plus-narrow", sans-serif;
   font-weight: 70;
   font-style: normal;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(10px + 0.390625vw);
   align-items: center;
   height: 50%;
 }
@@ -114,12 +114,12 @@ body {
   box-sizing: border-box;
 }
 
-body {
+/* body {
   font-family: "lores-9-plus-narrow", sans-serif;
   color: white;
   background: #ffffff;
   user-select: none;
-}
+} */
 
 .fullscreen {
   position: absolute;
@@ -144,70 +144,4 @@ body {
 .clicked {
   pointer-events: none;
   opacity: 0;
-}
-
-.xop-section{
-  max-width:960px;
-  margin: 0 auto;
-  padding: 6% 2%;
-}
-
-.xop-grid{
-  margin: 20px 0 0 0;
-  padding: 0;
-  list-style: none;
-  display: block;
-  text-align: center;
-  width: 100%;
-}
-
-.xop-grid:after{
-  clear: both;
-}
-
-.xop-grid:after, .xop-box:before{
-  content: "";
-  display: table;
-}
-
-.xop-grid li{
-  width: 328px;
-  height: 328px;
-  display: inline-block;
-  margin: 20px;
-}
-
-.xop-box{
-  width: 100%;
-  height: 100%;
-  position: relative;
-  cursor: pointer;
-  border-radius: 10px;
-  -webkit-transition: 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
-  -moz-transition: 0.3s ease-in-out, moz-transform 0.3s ease-in-out;
-  transition: 0.3s ease-in-out, transform 0.3s ease-in-out;
-}
-
-.xop-box:hover{
-  transform: scale(1.05);
-}
-
-.xop-img-1{
-  background: linear-gradient(rgba(0,0,0,0.50), rgba(0,0,0,0.10)),
-  url(../public/websiteImagesHome/1.png);
-}
-
-.xop-img-2{
-  background: linear-gradient(rgba(0,0,0,0.50), rgba(0,0,0,0.10)),
-  url(../public/websiteImagesHome/2.png);
-}
-
-.xop-img-3{
-  background: linear-gradient(rgba(0,0,0,0.50), rgba(0,0,0,0.10)),
-  url(../public/websiteImagesHome/3.png);
-}
-
-.xop-img-4{
-  background: linear-gradient(rgba(0,0,0,0.50), rgba(0,0,0,0.10)),
-  url(../public/websiteImagesHome/4.png);
 }
