@@ -1,8 +1,5 @@
 import React from "react";
-// import { Canvas } from "@react-three/fiber";
 import { Header } from "../Overlay.js";
-// import { ScrollControls, Scroll } from "@react-three/drei";
-//https://codepen.io/plasm/pen/pPWrqV
 
 export const Contact = () => (
   <>
@@ -14,7 +11,6 @@ export const Contact = () => (
                 top: `15vh`,
                 left: "10vw",
                 fontSize: "20",
-                // transform: `translate3d(0,-100%,0)`,
                 color: "#ff0040",
               }}
             >
@@ -28,7 +24,6 @@ export const Contact = () => (
                 right: "10vw",
                 fontSize: "20",
                 fontFamily: "halyard-display",
-                // transform: `translate3d(0,-100%,0)`,
                 color: "#303030",
               }}
             >
