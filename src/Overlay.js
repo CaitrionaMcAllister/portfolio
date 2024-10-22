@@ -52,7 +52,7 @@ function Overlay() {
         MCALLISTER
       </p>
       <p className="App-description">
-        Creative Technologist ++++ Digital Designer
+        Creative Technologist + Digital Designer
       </p>
       <a
         className="App-link"
