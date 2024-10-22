@@ -1,9 +1,3 @@
-/* @font-face { */
-/* colourful font */
-/* font-family: "Mario1"; */
-/* src: url(./fonts/mario-world-pixel-color-font/MarioWorldPixelColor-3zBwX.ttf); */
-/* } */
-
 html,
 body,
 #root {
@@ -31,11 +25,6 @@ a {
   pointer-events: all;
   color: rgb(255, 255, 255);
   text-decoration: none;
-  /* font-size: 0; */
-}
-
-a {
-  pointer-events: all;
   cursor: pointer;
   color: inherit;
   text-decoration: none;
@@ -50,24 +39,10 @@ body {
   overscroll-behavior: none;
   background: #efefef;
   font-family: "lores-9-plus-narrow", sans-serif;
-  /* cursor: url("../public/cursor32x32.png"), auto; */
-  /* cursor: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAzMiAzMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48Y2lyY2xlIGN4PSIxNiIgY3k9IjE2IiByPSIxMCIgZmlsbD0iYmxhY2siLz48L3N2Zz4="),
-    auto; */
 }
 
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
 
 .App-header {
@@ -138,11 +113,11 @@ body {
   opacity: 0;
 }
 
-.imageWrapper{
+.imageWrapper {
   margin: 100px 100px;
 }
 
-.imageWrapper img{
+.imageWrapper img {
   width: 400px;
   height: 400px;
 }

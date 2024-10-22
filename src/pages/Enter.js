@@ -5,10 +5,6 @@ import { Sparkles, CameraShake } from "@react-three/drei";
 import { Overlay } from "../Overlay.js";
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
 import { useLoader } from "@react-three/fiber";
-//https://codepen.io/bob6664569/pen/rOzmve
-//https://codepen.io/plasm/pen/zwjMPy
-
-//to do: add slightly moving scene but with stars that animate and interactive
 
 function Model() {
   const model = useLoader(GLTFLoader, "./models/scene.glb");
@@ -20,16 +16,6 @@ export default function Enter({ ready }) {
     <>
       <Canvas dpr={[1, 2]} camera={{ position: [0, 6, 20], fov: 40 }}>
         <fog attach="fog" args={["#cc7b32", 0, 500]} />
-        {/* <OrbitControls
-          minPolarAngle={Math.PI / 6}
-          maxPolarAngle={Math.PI - Math.PI / 1.7}
-          minDistance={20}
-          maxDistance={30}
-          panSpeed={0.1}
-          makeDefault
-          autoRotate
-          autoRotateSpeed={1}
-        /> */}
         <CameraShake
           maxYaw={0.08} // Max amount camera can yaw in either direction
           maxPitch={0.08} // Max amount camera can pitch in either direction
