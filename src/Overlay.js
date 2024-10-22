@@ -63,7 +63,7 @@ function Overlay() {
         COMING SOON!
         <br />
         Find me on<strong> LinkedIn</strong>
-        <strong> ENTER</strong>
+        {/* <strong> ENTER</strong> */}
       </a>
     </div>
   );
