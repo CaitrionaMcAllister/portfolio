@@ -16,6 +16,7 @@ function Header() {
   return (
     <>
       <Navbar />
+      <Header />
     </>
   );
 }
