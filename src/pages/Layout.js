@@ -15,8 +15,9 @@ export { Layout };
 function Header() {
   return (
     <>
-      <Navbar />
       <Header />
+
+      <Navbar />
     </>
   );
 }
