@@ -3,25 +3,25 @@ import { Outlet } from "react-router-dom";
 import { Navbar } from "../Overlay";
 import { Header } from "../Overlay.js";
 
-function Layout() {
-  return (
-    <>
-      <Outlet />
-    </>
-  );
-}
+// function Layout() {
+//   return (
+//     <>
+//       <Outlet />
+//     </>
+//   );
+// }
 
-export { Layout };
+// export { Layout };
 
-function Header() {
-  return (
-    <>
-      <Header />
+// function Header() {
+//   return (
+//     <>
+//       <Header />
 
-      <Navbar />
-    </>
-  );
-}
+//       <Navbar />
+//     </>
+//   );
+// }
 
 export { Header };
 
