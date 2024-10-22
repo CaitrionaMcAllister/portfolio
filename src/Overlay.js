@@ -52,11 +52,7 @@ function Overlay() {
         MCALLISTER
       </p>
       <p className="App-description">
-<<<<<<< HEAD
         Creative Technologist ++++ Digital Designer
-=======
-        Creative Technologist +++ Digital Designer
->>>>>>> 489c83206e105c7d34466582ecc411afcfd0d2da
       </p>
       <a
         className="App-link"
@@ -64,13 +60,10 @@ function Overlay() {
         // target="_blank"
         // rel="noopener noreferrer"
       >
-<<<<<<< HEAD
         COMING SOON!
         <br />
         Find me on<strong> LinkedIn</strong>
-=======
         <strong> ENTER</strong>
->>>>>>> 489c83206e105c7d34466582ecc411afcfd0d2da
       </a>
     </div>
   );
