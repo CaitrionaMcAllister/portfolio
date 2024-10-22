@@ -24,3 +24,11 @@ function Header() {
 }
 
 export { Header };
+
+import { Header } from "../Overlay.js";
+
+export const Contact = () => (
+  <>
+    <Header />
+  </>
+);
