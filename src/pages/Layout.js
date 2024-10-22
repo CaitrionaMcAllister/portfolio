@@ -1,6 +1,7 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
 import { Navbar } from "../Overlay";
+import { Header } from "../Overlay.js";
 
 function Layout() {
   return (
