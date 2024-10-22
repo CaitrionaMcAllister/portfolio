@@ -1,34 +1,23 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
 import { Navbar } from "../Overlay";
-import { Header } from "../Overlay.js";
 
-// function Layout() {
-//   return (
-//     <>
-//       <Outlet />
-//     </>
-//   );
-// }
+function Layout() {
+  return (
+    <>
+      <Outlet />
+    </>
+  );
+}
 
-// export { Layout };
+export { Layout };
 
-// function Header() {
-//   return (
-//     <>
-//       <Header />
-
-//       <Navbar />
-//     </>
-//   );
-// }
+function Header() {
+  return (
+    <>
+      <Navbar />
+    </>
+  );
+}
 
 export { Header };
-
-import { Header } from "../Overlay.js";
-
-export const Contact = () => (
-  <>
-    <Header />
-  </>
-);
